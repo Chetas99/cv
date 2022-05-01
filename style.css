@@ -1,0 +1,29 @@
+                body {
+                   background-color:#CBF1F5;
+                    }
+                hr {
+                    background-color:transparent;
+                    width: 50%;
+                    border:none;
+                    border-top-style: dotted;
+                    border-color:#71C9CE;
+                    border-height:10px;
+                    border-width:10px;
+                    }
+                img {
+                    border-radius:50%;
+                    }
+                h1 {
+                color:#71C9CE;
+                }
+                h3 {
+                color:#71C9CE;
+                }
+                ul li::before {
+                  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                  color:#247881 ; /* Change the color */
+                /* If you want it to be bold */
+                  display: inline-block; /* Needed to add space between the bullet and the text */
+                  width: 2em; /* Also needed for space (tweak if needed) */
+                  margin-left: -1em; /* Also needed for space (tweak if needed) */
+                }
